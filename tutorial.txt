@@ -104,7 +104,7 @@ Configurando o Git
       Obs: digitar os comandos na raiz do repositório.
     - git status ( verifica o status do repositório em relação ao Github)
     - git add . (adiciona todas as alterações)
-    - git commit -m "Descrição das Alterções"
+    - git commit -m "descrição das alterações"
     
 
 
