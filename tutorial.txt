@@ -92,6 +92,19 @@ Estudo das variáveis
 Obs: No JavaScript as variáveis são dinamicamente tipadas
 const (cirar uma constante)
 var ou let (criar uma variável) *** JAMAIS UTILIZAR O VAR***
+
+Tipagem dinâmicaa:
+
+No JS o tipo string é definido quando o conteúdo da variável estiver entre aspas " "
+
+Variáveis numéricas podem ser números inteiros e não inteiros 
+Obs: , (vírgula é caractere e não número) se necessário converter a entrada de dados de "," para "." .replace(",",".")
+
+Na entrada de dados numéricos via terminal ou formulários é necesário converter para números
+
+classe Number: 
+____________________________________________________________________________________________________________________
+
 _________________________________________________________________________________
 Git e Github
 

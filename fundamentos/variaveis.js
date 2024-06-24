@@ -1,5 +1,5 @@
 /**
- * Estudo das Variáveis
+ * Estudo das Variáveis - const var let
  * @author João Fonseca 
  */
 
