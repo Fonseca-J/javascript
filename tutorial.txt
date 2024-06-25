@@ -119,6 +119,40 @@ Configurando o Git
     - git add . (adiciona todas as alterações)
     - git commit -m "descrição das alterações"
     
+__________________________________________________________________________________
+NODE - Plataforma para uso do JS fora do browser(navegador)
+
+___ V8 (google chrome)
+___ Bibliotecas C / C++
+___ pacotes npm (node packager manager)
+npm ls (lista pacotes)
+npm i oi npm install ( instala o pacote)
+npm r nome_do_pacote (remover pacote)
+
+Pacote = Módulo = bibliotecas
+Para usar um pacote é necessário fazer a importação no inicio do código (logo abaixo do cabeçalho do documento)
+__________________________________________________________________________________________________
+Algorítmo: "receita de bolo"
+
+Exemlo 1:
+Calcular a média de 2 notas
+
+
+         nota 1 + nota 2
+média = _________________
+               2
+
+Váriáveis: nota1, nota2, media
+
+Entrada: nota1,nota2
+Processamento: media = (nota1 + nota2) / 2
+Saída: media (resultado)
+
+
+
+
+
+
 
 
 
