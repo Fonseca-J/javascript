@@ -12,6 +12,7 @@ let nota1, nota2, media
 console.clear()
 console.log("Cálculo de mádia")
 // captura da nota pelo pacote readlne-sync
+
 //entrada
 nota1 = Number(input.question("Digite a nota1: "))
 nota2 = Number(input.question("Digite a nota2: "))
