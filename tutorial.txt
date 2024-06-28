@@ -148,6 +148,125 @@ Entrada: nota1,nota2
 Processamento: media = (nota1 + nota2) / 2
 Saída: media (resultado)
 
+________________________________________________________________________________
+Exemplo 2:
+Desenvolver um app modo console para calculo de porcentagem: 
+Ex: 10% de 200 = 20
+     x      y    vlr
+
+
+200(y) ---------- 100%
+vlr ----------  10%(x)
+
+
+vlr * 100 = y * x
+
+
+          y * x                    2000
+vlr = ______________      vlr = ______________
+           100                       100
+
+
+vlr =(x * y) / 100
+
+
+_________________________________________________________________________________
+Exercicio:
+
+valor total: 200.00
+desconto :    5%
+Total com desconto: 190.00
+
+//Variáveis
+
+total, desconto, totalDesconto
+
+//entrada
+desconto = Number(input.question("Digite o valor do desconto em %: "))
+total = Number(input.question("Digite o valor total: "))
+
+
+//processamento 1
+valor = (desconto * total) / 100
+
+//saída1
+console.log(`Valor total: R$ ${total.toFixed(2)}`)
+console.log(`Desconto: ${desconto}%`)
+console.log(`Valor do Desconto: R$ ${valor.toFixed(2)}`)
+
+//processamento 2
+totalDesconto = total - valor
+//saida 2
+totalDesconto
+_______________________________________________________________________________
+Exercicio 2:
+
+Desenvolver um app no console para conversão de moeda (real para euro)
+
+
+
+//variáveis
+ let real, euro, total
+
+ console.clear()
+ console.log("Convesro Real x Euro")
+
+//entrada
+ real = Number(input.question("Digite total em reais a serem convertidos: "))
+ euro = Number(input.question("Digite a cotação do euro: "))
+
+ //processamento
+ total = real / euro
+
+ //saída
+ console.log(`R$ ${real.toFixed(2)} equivalem = E${total.toFixed(2)} euros`)
+
+
+
+//entrada
+euro = Number(input.question("Digite o valor do euro: "))
+real = Number(input.question("Digite o valor do real: "))
+
+//processamento 1
+total = (real * euro)
+
+____________________________________________________________________________________
+Exercício (Prova):
+
+Calcular a frequência cardíaca máxima
+
+atividade, frequência, maximo, 
+
+//entrada
+frequência, idade, batimento
+
+frequência = 208
+idade = 39
+batimento = 0,7
+
+//processamento
+freq = Number(input.question("Digite o valor da frequência: "))
+idade = Number(input.question("Digite o valor da idade: "))
+batimento = 
+
+//processamento
+frequência - batimento * idade
+
+//saida
+console.log(`KG ${peso} * ${idade})
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
