@@ -254,6 +254,8 @@ frequência - batimento * idade
 
 //saida
 console.log(`KG ${peso} * ${idade})
+__________________________________________________________________________________________________
+Calcular a quantidade de tijolos por metro quadrado (tijolo baiano 8 furos)
 
 
 
