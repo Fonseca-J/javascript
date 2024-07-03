@@ -1,7 +1,7 @@
 /**
- * Conversor de moedas (Real x Euro) 
- * @author Joao Fonseca
- */
+* Conversor de moedas (Real x Euro) 
+* @author Joao Fonseca
+*/
 
  const input = require('readline-sync')
 
