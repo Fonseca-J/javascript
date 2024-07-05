@@ -4,20 +4,27 @@
  */
 
 
-const input =   require('readline-sync')
-
 
 //idade do homem = 39
 
-//variáveis
-let fmc, idade, media
+const input = require('readline-sync')
+const bpm = 208
+const media = 0.70
+
+
+//variaveis
+let idade, fmc
+
+console.clear()
+console.log("Calculo da frequência máxima cardiaca")
 
 //entrada
-fmc = Number(input.question("Digite valor do fmc: "))
-idade = Number(input.question("Digite o valor da idade: "))
-media = Number(input.question("digite valor da média: "))
+idade = Number(input.question("digite a sua idade: "))
 
 //processamento
-fmc = (media * idade )
-//saída
-console.log(`Média: ${fmc.toFixed(2)}`)
+fmc = bpm - (media * idade)
+
+//saida
+console.log(`valor da frequencia máxima cardiaca ${fmc.toFixed(2)}`)
+
+

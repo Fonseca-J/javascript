@@ -235,31 +235,6 @@ Exercício (Prova):
 
 Calcular a frequência cardíaca máxima
 
-atividade, frequência, maximo, 
-
-//entrada
-frequência, idade, batimento
-
-frequência = 208
-idade = 39
-batimento = 0,7
-
-//processamento
-freq = Number(input.question("Digite o valor da frequência: "))
-idade = Number(input.question("Digite o valor da idade: "))
-batimento = 
-
-//processamento
-frequência - batimento * idade
-
-//saida
-console.log(`KG ${peso} * ${idade})
-__________________________________________________________________________________________________
-Calcular a quantidade de tijolos por metro quadrado (tijolo baiano 8 furos)
-
-
-
-
 
 
 
