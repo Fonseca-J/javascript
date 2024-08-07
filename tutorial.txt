@@ -190,9 +190,9 @@ total = Number(input.question("Digite o valor total: "))
 valor = (desconto * total) / 100
 
 //saída1
-console.log(`Valor total: R$ ${total.toFixed(2)}`)
+console.log(`Valor total: R$ ${total.toFixed(1)}`)
 console.log(`Desconto: ${desconto}%`)
-console.log(`Valor do Desconto: R$ ${valor.toFixed(2)}`)
+console.log(`Valor do Desconto: R$ ${valor.toFixed(1)}`)
 
 //processamento 2
 totalDesconto = total - valor
@@ -234,6 +234,61 @@ ________________________________________________________________________________
 Exercício (Prova):
 
 Calcular a frequência cardíaca máxima
+_____________________________________________________________________________________
+Estruturas de controle
+
+condicionais:
+if eof-else (encadeamento, aninhamento else-if) switch-case 
+
+repetições:
+for while do-while
+
+if (condição {
+   // condição verdadeira
+})
+
+if (condição) {
+   // condição verdadeira
+} else {
+   //condição falsa
+}
+
+
+Observações:
+
+- Sempre uma resposta será exibida independente da condição.
+- Não pode existir uma condição verdadeira ou falsa ao mesmo tempo.
+
+_______________________________________________________________________________
+Exemplo de uso da estrutura else if
+No exemplo cálculo da médioa, estabelecer as seguintes condinções:
+1) Se o aluno tiver média menor que 2 (Reprovado)
+2) Se a média do aluno estiver entre 2 e 5 (RECUPERAÇÃO)
+3) Se a média for igual ou superior a 5 (APROVADO) 
+
+Resumnindo:
+if(condição 1 ) {
+   //condição 1 verdadeira
+
+} else if(condição 2 ) {
+   //condição 2 verdadeira
+
+} else {
+   //Nenhumn das condções anteriores verdadeiras
+}
+
+Exercicio 3:
+No Brasil, o voto pode ser proibido, obrigatório ou facultativo, de acordo com os seguintes critérios:
+
+idade menor que 16 (proibido votar)
+ideade entre 18 e 70 (incluindo 18 e 70) o voto é obrigatéorio
+idades entre 16 e 17 ou acima de 70 (voto é opicional)
+
+Desenvolva no console do APP JS para verificar em função da idade a obrigação ou não de votar.
+
+
+
+
 
 
 
