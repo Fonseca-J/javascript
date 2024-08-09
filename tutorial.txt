@@ -285,8 +285,45 @@ ideade entre 18 e 70 (incluindo 18 e 70) o voto é obrigatéorio
 idades entre 16 e 17 ou acima de 70 (voto é opicional)
 
 Desenvolva no console do APP JS para verificar em função da idade a obrigação ou não de votar.
+---------------------------------------------------------------------------------------------------------------------------------
+
+Estrutura  de controle condicional: switch-case
+Sintaxe: 
+variável (número inteiro ou letra)
+switch(variável) {
+   case: 1
+      //código se o valor da variável for igual a 1
+      break
+   case: 2
+      //código se o valor da variável for igual a 2
+      break
+   default:
+      //código caso valor diferente de 1 ou 2
+      break      
+}
+------------------------------------------------------------------------------------------------------------------------------------
+Exercício 4: Desenvolva no console do JS um aplicativo que faça o sorteio do jogo de dado, ao resultado associar 
 
 
+⚀ - face1
+⚁ - face2
+⚂ - face3
+⚃ - face4
+⚄ - face5
+⚅ - face6
+---------------------------------------------------------------------------------------------------------------------------------------
+Estruturas de controle - laços de repetições
+
+for
+while
+do-while
+
+for - estrutura de repetição finitas (determinada)
+for (let i=1; condição; incremento/decremento) {
+   //início ; repetir enquanto condição verdadeira; i++ ou i-- 
+}
+
+//observação: a variável declarada dentro da estrutura deve ser um número inteiro
 
 
 
