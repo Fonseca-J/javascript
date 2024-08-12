@@ -15,13 +15,13 @@ tesoura = 3
  
 console.clear()
  
-console.log("     ___  _______  __    _  ___   _  _______  __    _  _______  _______  __    _")
-console.log("    |   ||   _   ||  |  | ||   | | ||       ||  |  | ||       ||       ||  |  | |")
-console.log("    |   ||  |_|  ||   |_| ||   |_| ||    ___||   |_| ||    _  ||   _   ||   |_| |")
-console.log("    |   ||       ||       ||      _||   |___ |       ||   |_| ||  | |  ||       |")
-console.log(" ___|   ||       ||  _    ||     |_ |    ___||  _    ||    ___||  |_|  ||  _    |")
-console.log("|       ||   _   || | |   ||    _  ||   |___ | | |   ||   |    |       || | |   |")
-console.log("|_______||__| |__||_|  |__||___| |_||_______||_|  |__||___|    |_______||_|  |__|")
+console.log("     ___  _______  __    _  ___   _  _______  __    _  _______  _______  __    _".rainbow.bold)
+console.log("    |   ||   _   ||  |  | ||   | | ||       ||  |  | ||       ||       ||  |  | |".rainbow.bold)
+console.log("    |   ||  |_|  ||   |_| ||   |_| ||    ___||   |_| ||    _  ||   _   ||   |_| |".rainbow.bold)
+console.log("    |   ||       ||       ||      _||   |___ |       ||   |_| ||  | |  ||       |".rainbow.bold)
+console.log(" ___|   ||       ||  _    ||     |_ |    ___||  _    ||    ___||  |_|  ||  _    |".rainbow.bold)
+console.log("|       ||   _   || | |   ||    _  ||   |___ | | |   ||   |    |       || | |   |".rainbow.bold)
+console.log("|_______||__| |__||_|  |__||___| |_||_______||_|  |__||___|    |_______||_|  |__|".rainbow.bold)
 console.log("")
 console.log("")
  
@@ -58,9 +58,7 @@ switch (jokepc) {
 if (joke === jokepc) {
     console.log("Empate!".rainbow)
 } else if (
-    (joke === pedra && jokepc === tesoura) ||
-    (joke === papel && jokepc === pedra) ||
-    (joke === tesoura && jokepc === papel)
+    (joke === pedra && jokepc === tesoura) || (joke === papel && jokepc === pedra) || (joke === tesoura && jokepc === papel)
 ) {
     console.log("Você ganhou!".green)
 } else {
