@@ -325,10 +325,40 @@ for (let i=1; condição; incremento/decremento) {
 
 //observação: a variável declarada dentro da estrutura deve ser um número inteiro
 
+while do-while - estruturas de repetições Infinitas.
+
+
+while - (condição) {
+   // analisa a condição e executa o código enquanto a condição for verdadeira
+}
+
+do {
+   // sempre executa o código uma vez, independente da condiçã, depois se comporta como while
+} while(condição)
+
+Exercicio 6:
+Desenvolver um aplicativo para calcular a tabuada, semelhante ao exemplo de aula usando a estrutura while no lugar do for 
 -----------------------------------------------------------------------------------------------------------------------------
 Escreva um codigo que some todos os números de 1 a 100 e exibe o resultado no console
 
 Escreva um codigo que use o laço for para contar quantos números pares existem de 1 a 20
+
+============================================================================================================================
+Funções:
+
+Uma funão em JS é um bloco de codigo que realiza uma tarefa específica ou calcula um valor. Você pode pensar nela como "receita"
+
+Para criar uma função simples (literqal) usamos a palavra reservada function, e escolhemos em nome conforme Sintaxe abaixo:
+
+function nome()
+   //código
+   Para executar uma função devemos escrever o  nome da função seguido de parênteses:
+   nome()
+
+   // variáveis 
+   Tipos primitivos: string, number, Boolean 
+   Outros tipos: function, object
+
 
 
 
