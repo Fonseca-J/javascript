@@ -346,7 +346,9 @@ Escreva um codigo que use o laço for para contar quantos números pares existem
 ============================================================================================================================
 Funções:
 
-Uma funão em JS é um bloco de codigo que realiza uma tarefa específica ou calcula um valor. Você pode pensar nela como "receita"
+Uma função é um bloco de codigo que realiza uma tarefa específica ou calcula um valor. Você pode pensar nela como "receita"
+
+Nomeie funções de acordo com o problema a ser resolvido. Use "verbos" para nomear funções. Ex: calcular(), cadastrar()
 
 Para criar uma função simples (literqal) usamos a palavra reservada function, e escolhemos em nome conforme Sintaxe abaixo:
 
@@ -358,6 +360,36 @@ function nome()
    // variáveis 
    Tipos primitivos: string, number, Boolean 
    Outros tipos: function, object
+
+   // Funções em JavaScript
+
+   - literais (nome)
+   - atribuidas (variáveis) "Função anônima"
+   São funções atribuidas a uma constante ou variável onde o resultado do processamento da função é armazenado e pode ser utilizado, além disso funções atribuidas podem ser siplificadas
+   (arrow function)
+
+Atividade 3 (Avaliação em dupla)
+
+Desenvolver uma calculadora no console usando funções, conforme op modelo abaixo:
+
+Calculadora:
+
+digite o primeiro valor: 10
+digite o segundo valor: 2
+Opções: 
+1. Somar
+2. Subtrair
+3. Multiplicar
+4. Dividir
+5. Calcular a porcentagem
+
+Digite a opção desejada: 3
+a Multiplicação de 10 x 2 = 20
+
+
+
+
+
 
 
 
