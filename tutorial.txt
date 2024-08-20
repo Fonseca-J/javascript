@@ -386,6 +386,36 @@ Opções:
 Digite a opção desejada: 3
 a Multiplicação de 10 x 2 = 20
 
+____________________________________________________________________________________________________________________
+POO
+
+- Abstração (Classe Modelo)
+- Herança
+- Polimorfismo
+
+- Encapsulamento (Segurança)
+Site de apoio: (49 a 60)
+https://professorjosedeassis.github.io/javaSE/#/49
+
+Obs: Para criar uma classe modelo usamos uma letra maiúscula no inicio
+
+NO JS a Classe modelo é uma função
+
+Sempre que existir a palavra new um objeto é criado(instanciado)
+
+O ponto após o objeto é usado para acessar os recursos (atributos e métodos) da classe modelo
+
+Polimorfismo:
+Atenção" Para reescrever um método é necessário usar o "MESMO" nome do método original
+
+Atividade 4: Avaliação Individual
+Slides 62 a 67  - execeto slide 65(ex.3)  (POO exercícios 1 - carros)
+
+
+
+
+
+
 
 
 
